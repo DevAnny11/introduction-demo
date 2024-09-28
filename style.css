@@ -18,6 +18,10 @@ p.first-paragraph {
 .contact {
     margin-top:50px;
   justify-content:center;
+  display:flex;
+}
+.contact a{
+  color:white;
 }
 .about {
     border: 1px solid blue;
@@ -27,31 +31,36 @@ p.first-paragraph {
     background-color: blue;
     margin-right:20px;
 }
-.about:hover {
-    background: green;
-        color: #f5f2fe;
+.about:hover{
+    background-color: green;
+        color:red;
         cursor: pointer;
 }
+
 .tact {
     border: 1px solid blue;
     padding:20px;
     border-radius: 20px;
-    color:white;
-    background-color:blue;
+    color:black;
+    background-color:white;
+}
+.tact a{
+  color:blue;
+}
+.tact a:hover{
+  color:white;
+  transition: all 150ms ease-in-out;
+  cursor:pointer;
 }
 .tact:hover {
-    background: red;
-        color: #f5f2fe;
+    background-color: blue;
+        color: white;
         cursor: pointer;
 }
 div a {
         text-decoration: none;
-      color:white;
         transition: all 150ms ease-in-out;
       }
-
-
-
     h2 {
         text-align:center;
         margin-bottom: -10px;
@@ -79,21 +88,22 @@ div a {
         font-size:13px;
       }
 
-      div {
+      div{
         display:flex;
-    
       }
       .passage {
         color:black;
-        background-color: lightskyblue;
+        background-color: pink;
         width:300px;
-         margin-left: 50px;
+         padding:15px;
+         margin-left: 160px;
       }
        .pass {
-        color:white;
-        background-color: black;
-        width: 400px;
-        margin-left: 70px;
+        color:black;
+        background-color:palevioletred;
+        width: 300px;
+        padding:15px;
+        margin-left:10px;
       }
     
       h3 {
@@ -104,9 +114,11 @@ div a {
     h4 {
         font-size:30px;
         text-align:center;
-        color:crimson;
+        color:black;
+        margin-top:-10px;
     }
     h4 a{
-        color:chocolate;
+        color:blue;
+        font-size:20px;
     }
 
